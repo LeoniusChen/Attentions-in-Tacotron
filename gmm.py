@@ -8,7 +8,7 @@ import torch
 from torch import nn
 from torch.nn import functional as F
 
-from attention import BahdanauAttention
+from attention_base import BahdanauAttention
 
 
 class GMMAttention(BahdanauAttention):
